@@ -119,6 +119,11 @@ footer p{
   border-bottom: 1px solid #707070;
 }
 
+.current-page:hover,
+.current-page:focus{
+  color: #707070;
+}
+
 /* =========
 Layout
 ==========*/
