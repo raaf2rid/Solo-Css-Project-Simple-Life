@@ -347,10 +347,10 @@ media queries
     width: 100%;
   }
 
-  .secondary-article-info{
+/*   .secondary-article-info{
     text-align: right;
     margin-bottom: -1.5em;
-  }
+  } */
   
   aside{
     display: flex;
