@@ -85,7 +85,8 @@ h1{
 }
 
 
-.article-about-me h1, .recent-posts h1{
+.article-about-me h1, .recent-posts h1, .article-about-me a,
+.recent-posts a{
   font-size: 1rem;
   font-family: "Ubuntu", sans-serif;
   margin: 0 0 1em 0;
@@ -99,6 +100,18 @@ h1{
   line-height: 1.5em;
   margin: 1em 0 0 0;
   color: #143774;
+}
+
+.article-about-me a,
+.recent-posts a{
+  text-decoration: none;
+}
+
+.article-about-me a:hover,
+.article-about-me a:focus,
+.recent-posts a:hover,
+.recent-posts:focus{
+  color: #1792D2;
 }
 
 footer p{
@@ -123,6 +136,7 @@ footer p{
 .current-page:focus{
   color: #707070;
 }
+
 
 /* =========
 Layout
@@ -335,7 +349,7 @@ media queries
 
   .secondary-article-info{
     text-align: right;
-    margin-bottom: -2.5em;
+    margin-bottom: -1.5em;
   }
   
   aside{
